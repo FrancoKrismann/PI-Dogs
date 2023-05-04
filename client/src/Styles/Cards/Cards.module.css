@@ -1,0 +1,28 @@
+/* .container {
+    
+    
+    
+    margin-bottom: 4rem;
+    
+} */
+
+
+.containerCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    text-align: center;
+    margin-top: 10vh;
+    padding-top:20px;
+    
+    flex-wrap: wrap;
+    row-gap: 5px;
+    gap: 10px;
+    
+    
+    /* top: 25vh;
+    right: 25vh; */
+    height: 120vh;
+    width: 90%;
+}
+

@@ -1,0 +1,44 @@
+
+   
+   .input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-bottom: 1px solid #515151;
+    background: white;
+    margin-right: 10px;
+}
+
+
+
+
+
+.containerInputs {
+    display: flex;
+
+}
+
+
+   .buttonSearchBar {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  border-radius: 15px;
+  
+  border: none;
+  /* background-color: aqua; */
+  text-decoration: none;
+  color: #373435;
+  font-size: 1rem;
+  background-color: rgb(255, 213, 63);
+  /* box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff; */
+  cursor: pointer;
+}
+
+.buttonSearchBar {
+  margin-right: 10px;
+}

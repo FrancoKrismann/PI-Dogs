@@ -1,0 +1,141 @@
+.containerCard {
+    box-sizing: border-box;
+    width: 340px;
+    height: 570px;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .containerCard:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .containerCard:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+  
+  .divImageTittle {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 0;
+  }
+  
+  .divTitleCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 300px; */
+    width: 280px;
+    height: 70px;
+    /* background-color: blueviolet; */
+    margin-bottom: 0.5rem;
+  }
+  
+  .titleCard {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: #373435;
+  }
+  
+  .divImageCard {
+    display: flex;
+    justify-content: center;
+    /* width: 300px; */
+    width: 280px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.imageCard {
+    width: 500px;
+    
+}
+
+.divWeight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    /* width: 300px; */
+    width: 280px;
+    margin-left: 10px;
+    margin-top: 0.5rem;
+    /* background-color: aqua; */
+}
+
+.titleWeight {
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: #373435;
+    margin-bottom: 0.5rem;
+}
+
+.pWeight {
+    color: #373435;
+    font-size: 0.9rem;
+}
+
+.divTemperaments {
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    /* width: 300px; */
+    width: 280px;
+    height: 150px;
+    margin-left: 5px;
+}
+
+.titleTemperaments {
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: #373435;
+    margin-bottom: 0.8rem;
+  }
+  
+  .divItemsTemperaments {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    text-align: center;
+    height: 100px;
+  
+    /* background-color: aqua; */
+  }
+  
+  .itemTemperament {
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 15px;
+    border: none;
+    /* background-color: aqua; */
+    color: #373435;
+    font-size: 0.9rem;
+    background-color: rgb(255, 213, 63);
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  }
